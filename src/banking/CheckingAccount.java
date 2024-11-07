@@ -36,6 +36,7 @@ public class CheckingAccount {
         return name;
     }
 
+
     //mutators == "setters"
     public void setBalance(double amount) {
         balance = amount;
