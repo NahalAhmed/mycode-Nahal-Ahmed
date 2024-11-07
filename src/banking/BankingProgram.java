@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class BankingProgram {
 
+    //TODO: Double check that this one is updated
     public static void main(String[] args) {
         //references are alan, barbara and carl
         CheckingAccount alan    = new CheckingAccount("Alan", 1300);

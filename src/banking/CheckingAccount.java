@@ -1,5 +1,6 @@
 package banking;
 
+//TODO: Double check that this one is updated
 public class CheckingAccount {
     //data fields
     String name;
