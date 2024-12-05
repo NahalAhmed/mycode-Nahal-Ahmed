@@ -9,7 +9,7 @@ public class CheckingAccount {
 
     //TODO: Lab 03 default constructor
     public CheckingAccount(){
-        this(name: " ", age: 18, balance: 0.0);
+        this(" ", 18, 0.0);
     }
 
     //TODO: Lab 02 Constructor
@@ -29,7 +29,7 @@ public class CheckingAccount {
         this.balance = balance;
     }
 
-    public CheckingAccount(int age, String name, double balance) {
+    public CheckingAccount(String name, int age, double balance) {
         this.age = age;
         this.name = name;
         this.balance = balance;
@@ -57,7 +57,7 @@ public class CheckingAccount {
     public void transfer (CheckingAccount recipient, double amount){
         if (amount +1.00 <= balance) {
             this.withdraw(amount);
-            System.out.println("Transfered: " + amount + "to" + recipient.name + "(Fee: 1.00");}
+            System.out.println("Transferred: " + amount + "to" + recipient.name + "(Fee: 1.00");}
     }
 
     public void displayCheckingAccountInfo(){
