@@ -14,6 +14,8 @@ public class BankingProgram {
         System.out.println("Account Balance.");
         alan.displayCheckingAccountInfo();
         barbara.displayCheckingAccountInfo();
+
+
         carl.displayCheckingACCOUNTiNFO();
 
         System.out.println();

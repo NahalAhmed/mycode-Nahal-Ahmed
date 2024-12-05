@@ -20,6 +20,7 @@ public class checkingAccount {
         this.name = firstName + " " + lastName;
         this.balance = Double.parseDouble(parts[3]);
     }
+
     // Lab 01
     public checkingAccount(String name, double balance) {
         this.age = 18;
