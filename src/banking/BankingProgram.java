@@ -11,9 +11,17 @@ public class BankingProgram {
         CheckingAccount barbara = new CheckingAccount("Barbara", 850);
         CheckingAccount carl    = new CheckingAccount("Carl", 500);
 
-        //FIXME: This is a security issue
+        System.out.println("Account Balance.");
+        alan.displayCheckingAccountInfo();
+        barbara.displayCheckingAccountInfo();
+        carl.displayCheckingACCOUNTiNFO();
+
         System.out.println();
         System.out.println();
+        alan.transfer(barbara, 275.00);
+        carl.transfer(barbara, 150.00);
+        System.out.println();
+
 
         System.out.println(alan);
         System.out.println(barbara);
