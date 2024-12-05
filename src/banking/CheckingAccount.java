@@ -57,7 +57,8 @@ public class CheckingAccount {
     public void transfer (CheckingAccount recipient, double amount){
         if (amount +1.00 <= balance) {
             this.withdraw(amount);
-            System.out.println("Transferred: " + amount + "to" + recipient.name + "(Fee: 1.00");}
+            System.out.println("Transferred: " + amount + "to" + recipient.name + "(Fee: 1.00");
+        recipient.deposit(amount); }
     }
 
     public void displayCheckingAccountInfo(){
