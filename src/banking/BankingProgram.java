@@ -16,7 +16,7 @@ public class BankingProgram {
         barbara.displayCheckingAccountInfo();
 
 
-        carl.displayCheckingACCOUNTiNFO();
+        carl.displayCheckingAccountInfo();
 
         System.out.println();
         System.out.println();

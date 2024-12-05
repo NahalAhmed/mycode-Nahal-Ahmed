@@ -1,18 +1,19 @@
 package banking;
 
-//TODO: Double check that this one is updated
-public class checkingAccount {
+public class CheckingAccount {
+    //TODO: Double check that this one is updated
+
     int age;
     String name;
     double balance;
 
-   // Lab 03 default constructor
-   public checkingAccount(){
-       this(name: " ", age: 18, balance: 0.0);
-   }
+    //TODO: Lab 03 default constructor
+    public CheckingAccount(){
+        this(name: " ", age: 18, balance: 0.0);
+    }
 
-   // Lab 02 Constructor
-    public checkingAccount(String input){
+    //TODO: Lab 02 Constructor
+    public CheckingAccount(String input){
         String[] parts = input.split(" ");
         String firstName = parts[0];
         String lastName = parts[1];
@@ -21,66 +22,68 @@ public class checkingAccount {
         this.balance = Double.parseDouble(parts[3]);
     }
 
-    // Lab 01
-    public checkingAccount(String name, double balance) {
+    //TODO: Lab 01
+    public CheckingAccount(String name, double balance) {
         this.age = 18;
         this.name = name;
         this.balance = balance;
     }
-    public checkingAccount(int age, String name, double balance) {
-       this.age = age;
-       this.name = name;
-       this.balance = balance;
+
+    public CheckingAccount(int age, String name, double balance) {
+        this.age = age;
+        this.name = name;
+        this.balance = balance;
     }
 
     //methods - functions
     public void deposit(double amount) {
-       if (amount > 0) {
-           balance += amount;
-           System.out.println("Deposit " + amount + "to" + name);
+        if (amount > 0) {
+            balance += amount;
+            System.out.println("Deposit " + amount + "to" + name);
+        }
     }
 
     public void withdraw (double amount) {
-           double totalAmount = amount + 1.0;
-           if (totalAmount <= balance) {
-               balance -= totalAmount;
-               System.out.println("Withdraw " + amount + "from" + name + "(Fee: 1.00");
-           }else{
-               System.out.println("Insufficient funds");
+        double totalAmount = amount + 1.0;
+        if (totalAmount <= balance) {
+            balance -= totalAmount;
+            System.out.println("Withdraw " + amount + "from" + name + "(Fee: 1.00");
+        }else{
+            System.out.println("Insufficient funds");
 
-    }
-     public void transfer (CheckingAccount recipient, double amount){
-               if (amount +1.00 <= balance) {
-               this.withdraw(amount);
-               System.out.println("Transfered: " + amount + "to" + recipient.name + "(Fee: 1.00");}
-            }
-       }
-       public void displayCheckingAccountInfo(){
-           System.out.println(name + "Balance:" + String.format("%.2f", balance));
         }
+    }
+
+    public void transfer (CheckingAccount recipient, double amount){
+        if (amount +1.00 <= balance) {
+            this.withdraw(amount);
+            System.out.println("Transfered: " + amount + "to" + recipient.name + "(Fee: 1.00");}
+    }
+
+    public void displayCheckingAccountInfo(){
+        System.out.println(name + "Balance:" + String.format("%.2f", balance));
+    }
 
     //accessors == "getters"
-
     public int getAge() {
-           return age
-        }}
+        return age;
+    }
 
     public double getBalance() {
-           return balance;
-        }}
-
+        return balance;
+    }
 
     public String getName() {
         return name;
     }
-    public setAge(int age){
-    this.age = age}
 
+    public void setAge(int age){
+        this.age = age;
+    }
 
     //mutators == "setters"
     public void setBalance(double amount) {
         balance = amount;
-
     }
 
     public void setName(String name) {
@@ -92,4 +95,5 @@ public class checkingAccount {
     public String toString() {
         return String.format("Name: %s\nBalance: %.2f\n", name, balance);
     }
+
 }
