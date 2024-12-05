@@ -1,0 +1,22 @@
+﻿Account Number,Routing Number,Account Nickname,Current Balance,Transaction Sender,Transaction Receiver,Transaction Amount,Transaction Date,Transaction Time,Date Opened,Next Satement Date,Account Type,Owner Name,Owner Age,Early Direct Deposit?,OverDraft Transfer?,OverDraft Protection
+13352392,112900,My Checking,43580.36,113701:15493626,112900:13352392,1316.72,2-Nov-24,15:43,2-Mar-15,27-Dec-24,Checking,Alan Martin,31,Yes,No,Yes
+13405145,113701,Spending,2811.77,112900:13352392,113701:13405145,2319.12,3-Nov-24,15:10,2-Jul-23,27-Dec-24,Checking,Michael Johnson,45,No,No,Yes
+23822827,100101,Savings,5022.99,112900:13352392,100101:23822827,2060.99,4-Nov-24,16:00,14-Apr-15,27-Dec-24,Savings,Emily Brown,34,No,Yes,Yes
+24348420,105269,CD,28720.56,,,,5-Nov-24,13:07,27-Sep-22,28-Dec-24,Certificate of Deposit,David Miller,33,No,,
+13394146,100101,Main Checking,5022.99,113701:15493626,100101:13394146,2311.66,6-Nov-24,17:54,28-Jun-15,27-Dec-24,Checking,Sarah Williams,22,Yes,No,Yes
+20143181,106829,Savings,9718.3,112900:13352392,106829:20143181,2731.36,7-Nov-24,14:39,22-Dec-15,28-Dec-24,Savings,Daniel Jones,25,Yes,Yes,Yes
+22106039,100101,My Checking,8058.27,113701:15493626,100101:22106039,2391.7,8-Nov-24,15:15,17-Jan-16,27-Dec-24,Checking,Jessica Garcia,19,Yes,No,Yes
+16900179,110379,Savings,5976.76,112900:13352392,110379:16900179,1145.21,9-Nov-24,8:00,4-Mar-16,27-Dec-24,Savings,Christopher Davis,56,Yes,No,Yes
+13467732,113701,CD,11170.39,,,,10-Nov-24,9:21,8-Apr-19,28-Dec-24,Certificate of Deposit,Ashley Rodriguez,51,No,,
+18099322,105269,Spending,1439.02,113701:15493626,105269:18099322,1765.7,11-Nov-24,10:18,6-May-16,27-Dec-24,Checking,Matthew Martinez,51,Yes,No,Yes
+17507187,100101,CD,28575.09,,,,12-Nov-24,9:47,27-May-19,28-Dec-24,Certificate of Deposit,Jennifer Hernandez,55,No,No,
+15617867,106829,My Savings,2683.36,112900:13352392,106829:15617867,1303.94,13-Nov-24,10:47,15-Jun-16,28-Dec-24,Savings,Mark Anderson,36,Yes,No,Yes
+12209151,110379,CD,28097.37,,,,14-Nov-24,14:29,15-Feb-21,27-Dec-24,Certificate of Deposit,Elizabeth Taylor,38,No,,
+16138427,113701,My Checking,8951.61,113701:15493626,113701:16138427,1040.58,15-Nov-24,14:29,18-Jul-16,28-Dec-24,Checking,Ryan Walker,28,Yes,No,Yes
+13107159,100101,Savings,24909.11,112900:13352392,100101:13107159,1381.41,16-Nov-24,15:29,14-Aug-22,27-Dec-24,Savings,Lisa Scott,41,Yes,Yes,Yes
+14439682,110379,Spending,1014.53,112900:13352392,110379:14439682,1107.96,17-Nov-24,16:29,17-Sep-16,28-Dec-24,Checking,Kevin Clark,46,Yes,No,Yes
+15795221,113701,Main Savings,12762.14,113701:15493626,113701:15795221,1036.67,18-Nov-24,14:41,14-Jan-17,27-Dec-24,Savings,Samantha Mitchell,28,Yes,No,Yes
+22154932,106829,Checking,23272.83,112900:13352392,106829:22154932,1107.96,19-Nov-24,15:31,19-Feb-19,27-Dec-24,Checking,Justin Campbell,29,Yes,Yes,Yes
+15079501,105269,CD,17259.87,,,,20-Nov-24,16:24,31-May-22,28-Dec-24,Certificate of Deposit,Amy Stewart,32,No,,
+22866290,110379,Spending,24915.8,113701:15493626,110379:22866290,1303.82,21-Nov-24,17:21,12-Oct-22,27-Dec-24,Checking,Brian Wilson,27,Yes,No,Yes
+15493626,113701,My Savings,72138.48,100101:13107159,113701:15493626,2250.5,22-Nov-24,17:35,12-Sep-19,27-Dec-24,Savings,Nicole Roberts,44,Yes,Yes,Yes
