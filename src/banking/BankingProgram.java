@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BankingProgram {
 
-    //TODO: Double check that this one is updated
+    //TODO: LAB 01
     public static void main(String[] args) {
         //references are alan, barbara and carl
         CheckingAccount alan    = new CheckingAccount("Alan", 1300);
@@ -29,12 +29,15 @@ public class BankingProgram {
         System.out.println(barbara);
         System.out.println(carl);
 
-        //TODO: Collect from keyboard
+        //TODO:LAB 02
         Scanner keyboard = new Scanner(System.in);
         System.out.print("Enter the name and balance: ");
         String inputString = keyboard.nextLine();
+        System.out.println(inputString);
+
         CheckingAccount checkingAccount = new CheckingAccount(inputString);
         System.out.println(checkingAccount);
+
 
     }
 }

@@ -17,9 +17,9 @@ public class CheckingAccount {
         String[] parts = input.split(" ");
         String firstName = parts[0];
         String lastName = parts[1];
-        this.age = Integer.parseInt(parts[2]);
+//        this.age = Integer.parseInt(parts[2]);
         this.name = firstName + " " + lastName;
-        this.balance = Double.parseDouble(parts[3]);
+        this.balance = Double.parseDouble(parts[2]);
     }
 
     //TODO: Lab 01
