@@ -11,10 +11,6 @@ public class CheckingAccount {
     public CheckingAccount(){
    //     this(" ", 18, 0.0);
         this(" ",0);
-
-
-
-
     }
 
     //TODO: Lab 02 Constructor

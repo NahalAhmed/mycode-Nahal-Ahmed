@@ -15,7 +15,6 @@ public class BankingProgram {
         alan.displayCheckingAccountInfo();
         barbara.displayCheckingAccountInfo();
 
-
         carl.displayCheckingAccountInfo();
 
         System.out.println();
@@ -52,15 +51,6 @@ public class BankingProgram {
 
         CheckingAccount checkingAcount = new CheckingAccount(firstname + " " + lastname, age , balance);
         System.out.println(checkingAcount);
-
-
-
-
-
-
-
-
-
 
     }
 }
