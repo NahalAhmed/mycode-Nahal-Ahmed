@@ -38,6 +38,29 @@ public class BankingProgram {
         CheckingAccount checkingAccount = new CheckingAccount(inputString);
         System.out.println(checkingAccount);
 
+       // LAB 03
+        System.out.print("Enter the name, age and balance: ");
+        String inputString2 = keyboard.nextLine();
+        System.out.println(inputString2);
+
+        String [] parts = inputString2.split(" ");
+
+        String firstname = parts[0];
+        String lastname = parts[1];
+        int age = Integer.parseInt(parts[2]);
+        double balance = Double.parseDouble(parts[3]);
+
+        CheckingAccount checkingAcount = new CheckingAccount(firstname + " " + lastname, age , balance);
+        System.out.println(checkingAcount);
+
+
+
+
+
+
+
+
+
 
     }
 }

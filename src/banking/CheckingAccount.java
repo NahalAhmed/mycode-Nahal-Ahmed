@@ -9,7 +9,12 @@ public class CheckingAccount {
 
     //TODO: Lab 03 default constructor
     public CheckingAccount(){
-        this(" ", 18, 0.0);
+   //     this(" ", 18, 0.0);
+        this(" ",0);
+
+
+
+
     }
 
     //TODO: Lab 02 Constructor
@@ -17,14 +22,16 @@ public class CheckingAccount {
         String[] parts = input.split(" ");
         String firstName = parts[0];
         String lastName = parts[1];
-//        this.age = Integer.parseInt(parts[2]);
+
+
+  //      this.age = Integer.parseInt(parts[2]);
         this.name = firstName + " " + lastName;
         this.balance = Double.parseDouble(parts[2]);
     }
 
     //TODO: Lab 01
     public CheckingAccount(String name, double balance) {
-        this.age = 18;
+   //     this.age = 19;
         this.name = name;
         this.balance = balance;
     }
@@ -33,6 +40,7 @@ public class CheckingAccount {
         this.age = age;
         this.name = name;
         this.balance = balance;
+
     }
 
     //methods - functions
@@ -94,7 +102,8 @@ public class CheckingAccount {
     //create a toString method to display the information for the update
     @Override
     public String toString() {
-        return String.format("Name: %s\nBalance: %.2f\n", name, balance);
+        return String.format("Name: %s\nBalance: %.2f\nAge:%d\n", name, balance,age);
+
     }
 
 }
