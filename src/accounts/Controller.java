@@ -97,9 +97,6 @@ public class Controller {
                 .setAccountOwner(accountOwner)
                 .setCurrentTransaction(currentTransaction)
                 .build();
-
-
-
     }
 
 

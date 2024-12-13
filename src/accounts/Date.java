@@ -2,7 +2,7 @@ package accounts;
 
 import java.util.Objects;
 
-public class Date {
+public class Date implements Comparable<Date> {
     private final int     day;
     private final Month   month;
     private final int     year;
@@ -41,5 +41,10 @@ public class Date {
     @Override
     public String toString() {
         return String.format("%02d-%s-%02d", day, month, year);
+    }
+
+    @Override
+    public int compareTo(Date o) {
+        return 0;
     }
 }

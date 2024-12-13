@@ -1,6 +1,6 @@
 package accounts;
 
-public class Time {
+public class Time implements Comparable<Time>{
     int hour;
     int minutes;
 
@@ -14,6 +14,7 @@ public class Time {
         this.hour = hour;
         this.minutes = minutes;
     }
+
     public int compareTo(Time other) {
         if (this.hour != other.hour) {
             return this.hour - other.hour;
@@ -35,4 +36,5 @@ public class Time {
     public String toString() {
         return String.format("%02d:%02d", hour, minutes);
     }
+
 }

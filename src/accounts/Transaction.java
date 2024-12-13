@@ -1,6 +1,6 @@
 package accounts;
 
-public class Transaction {
+public class Transaction implements Comparable<Transaction>{
     String  senderAccount;
     String  receiverAccount;
     double  transactionAmount;
@@ -24,5 +24,10 @@ public class Transaction {
     @Override
     public String toString() {
         return "";
+    }
+
+    @Override
+    public int compareTo(Transaction o) {
+        return 0;
     }
 }
