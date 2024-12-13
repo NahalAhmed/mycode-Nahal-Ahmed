@@ -1,0 +1,336 @@
+---------------------------------------------
+Account Number:       	 13352392 
+Routing Number:       	 112900 
+Account Nickname:     	 My Checking 
+Current Balance:      	 43580.36 
+Date Opened:          	 02-Mar-15 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 13405145 
+Routing Number:       	 113701 
+Account Nickname:     	 Spending 
+Current Balance:      	 2811.77 
+Date Opened:          	 02-Jul-23 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 No   
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 23822827 
+Routing Number:       	 100101 
+Account Nickname:     	 Savings 
+Current Balance:      	 5022.99 
+Date Opened:          	 14-Apr-15 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Savings 
+Account Owner:        	      
+Early Direct Deposit: 	 No   
+Over Draft Transfer:  	 Yes  
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 24348420 
+Routing Number:       	 105269 
+Account Nickname:     	 CD   
+Current Balance:      	 28720.56 
+Date Opened:          	 27-Sep-22 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Certificate of Deposit 
+Account Owner:        	      
+Early Direct Deposit: 	 No   
+Over Draft Transfer:  	      
+Over Draft Protection:	      
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 13394146 
+Routing Number:       	 100101 
+Account Nickname:     	 Main Checking 
+Current Balance:      	 5022.99 
+Date Opened:          	 28-Jun-15 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 20143181 
+Routing Number:       	 106829 
+Account Nickname:     	 Savings 
+Current Balance:      	 9718.30 
+Date Opened:          	 22-Dec-15 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Savings 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 Yes  
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 22106039 
+Routing Number:       	 100101 
+Account Nickname:     	 My Checking 
+Current Balance:      	 8058.27 
+Date Opened:          	 17-Jan-16 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 16900179 
+Routing Number:       	 110379 
+Account Nickname:     	 Savings 
+Current Balance:      	 5976.76 
+Date Opened:          	 04-Mar-16 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Savings 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 13467732 
+Routing Number:       	 113701 
+Account Nickname:     	 CD   
+Current Balance:      	 11170.39 
+Date Opened:          	 08-Apr-19 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Certificate of Deposit 
+Account Owner:        	      
+Early Direct Deposit: 	 No   
+Over Draft Transfer:  	      
+Over Draft Protection:	      
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 18099322 
+Routing Number:       	 105269 
+Account Nickname:     	 Spending 
+Current Balance:      	 1439.02 
+Date Opened:          	 06-May-16 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 17507187 
+Routing Number:       	 100101 
+Account Nickname:     	 CD   
+Current Balance:      	 28575.09 
+Date Opened:          	 27-May-19 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Certificate of Deposit 
+Account Owner:        	      
+Early Direct Deposit: 	 No   
+Over Draft Transfer:  	 No   
+Over Draft Protection:	      
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 15617867 
+Routing Number:       	 106829 
+Account Nickname:     	 My Savings 
+Current Balance:      	 2683.36 
+Date Opened:          	 15-Jun-16 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Savings 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 12209151 
+Routing Number:       	 110379 
+Account Nickname:     	 CD   
+Current Balance:      	 28097.37 
+Date Opened:          	 15-Feb-21 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Certificate of Deposit 
+Account Owner:        	      
+Early Direct Deposit: 	 No   
+Over Draft Transfer:  	      
+Over Draft Protection:	      
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 16138427 
+Routing Number:       	 113701 
+Account Nickname:     	 My Checking 
+Current Balance:      	 8951.61 
+Date Opened:          	 18-Jul-16 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 13107159 
+Routing Number:       	 100101 
+Account Nickname:     	 Savings 
+Current Balance:      	 24909.11 
+Date Opened:          	 14-Aug-22 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Savings 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 Yes  
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 14439682 
+Routing Number:       	 110379 
+Account Nickname:     	 Spending 
+Current Balance:      	 1014.53 
+Date Opened:          	 17-Sep-16 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 15795221 
+Routing Number:       	 113701 
+Account Nickname:     	 Main Savings 
+Current Balance:      	 12762.14 
+Date Opened:          	 14-Jan-17 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Savings 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 22154932 
+Routing Number:       	 106829 
+Account Nickname:     	 Checking 
+Current Balance:      	 23272.83 
+Date Opened:          	 19-Feb-19 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 Yes  
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 15079501 
+Routing Number:       	 105269 
+Account Nickname:     	 CD   
+Current Balance:      	 17259.87 
+Date Opened:          	 31-May-22 
+Next Statement Date:  	 28-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Certificate of Deposit 
+Account Owner:        	      
+Early Direct Deposit: 	 No   
+Over Draft Transfer:  	      
+Over Draft Protection:	      
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 22866290 
+Routing Number:       	 110379 
+Account Nickname:     	 Spending 
+Current Balance:      	 24915.80 
+Date Opened:          	 12-Oct-22 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Checking 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 No   
+Over Draft Protection:	 Yes  
+
+---------------------------------------------
+---------------------------------------------
+Account Number:       	 15493626 
+Routing Number:       	 113701 
+Account Nickname:     	 My Savings 
+Current Balance:      	 72138.48 
+Date Opened:          	 12-Sep-19 
+Next Statement Date:  	 27-Dec-24 
+
+Transaction:        	      
+Account Type:         	 Savings 
+Account Owner:        	      
+Early Direct Deposit: 	 Yes  
+Over Draft Transfer:  	 Yes  
+Over Draft Protection:	 Yes  
+
+---------------------------------------------

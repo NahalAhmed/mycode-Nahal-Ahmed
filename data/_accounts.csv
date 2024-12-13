@@ -1,0 +1,22 @@
+Account Number,Routing Number,Account Nickname,Current Balance,Transaction Sender,Transaction Receiver,Transaction Amount,Transaction Date,Transaction Time,Date Opened,Next Satement Date,Account Type,Owner Name,Owner Age,Early Direct Deposit?,OverDraft Transfer?,OverDraft Protection
+13352392,112900,My Checking,43580.36,,27-Dec-24,02-Mar-15,Checking,,Yes,No,Yes
+13405145,113701,Spending,2811.77,,27-Dec-24,02-Jul-23,Checking,,No,No,Yes
+23822827,100101,Savings,5022.99,,27-Dec-24,14-Apr-15,Savings,,No,Yes,Yes
+24348420,105269,CD,28720.56,,28-Dec-24,27-Sep-22,Certificate of Deposit,,No,,
+13394146,100101,Main Checking,5022.99,,27-Dec-24,28-Jun-15,Checking,,Yes,No,Yes
+20143181,106829,Savings,9718.3,,28-Dec-24,22-Dec-15,Savings,,Yes,Yes,Yes
+22106039,100101,My Checking,8058.27,,27-Dec-24,17-Jan-16,Checking,,Yes,No,Yes
+16900179,110379,Savings,5976.76,,27-Dec-24,04-Mar-16,Savings,,Yes,No,Yes
+13467732,113701,CD,11170.39,,28-Dec-24,08-Apr-19,Certificate of Deposit,,No,,
+18099322,105269,Spending,1439.02,,27-Dec-24,06-May-16,Checking,,Yes,No,Yes
+17507187,100101,CD,28575.09,,28-Dec-24,27-May-19,Certificate of Deposit,,No,No,
+15617867,106829,My Savings,2683.36,,28-Dec-24,15-Jun-16,Savings,,Yes,No,Yes
+12209151,110379,CD,28097.37,,27-Dec-24,15-Feb-21,Certificate of Deposit,,No,,
+16138427,113701,My Checking,8951.61,,28-Dec-24,18-Jul-16,Checking,,Yes,No,Yes
+13107159,100101,Savings,24909.11,,27-Dec-24,14-Aug-22,Savings,,Yes,Yes,Yes
+14439682,110379,Spending,1014.53,,28-Dec-24,17-Sep-16,Checking,,Yes,No,Yes
+15795221,113701,Main Savings,12762.14,,27-Dec-24,14-Jan-17,Savings,,Yes,No,Yes
+22154932,106829,Checking,23272.83,,27-Dec-24,19-Feb-19,Checking,,Yes,Yes,Yes
+15079501,105269,CD,17259.87,,28-Dec-24,31-May-22,Certificate of Deposit,,No,,
+22866290,110379,Spending,24915.8,,27-Dec-24,12-Oct-22,Checking,,Yes,No,Yes
+15493626,113701,My Savings,72138.48,,27-Dec-24,12-Sep-19,Savings,,Yes,Yes,Yes
