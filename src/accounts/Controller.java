@@ -9,7 +9,23 @@ import java.util.Scanner;
 
 public class Controller {
 
-    static String csvFileHeader;
+    static String csvFileHeader = "Account Number," +
+            "Routing Number," +
+            "Account Nickname," +
+            "Current Balance," +
+            "Transaction Sender," +
+            "Transaction Receiver," +
+            "Transaction Amount," +
+            "Transaction Date," +
+            "Transaction Time," +
+            "Date Opened," +
+            "Next Satement Date,"+
+            "Account Type," +
+            "Owner Name," +
+            "Owner Age," +
+            "Early Direct Deposit?," +
+            "OverDraft Transfer?," +
+            "OverDraft Protection";
 
     public static void intro(){
         System.out.println();
@@ -49,20 +65,40 @@ public class Controller {
         //TODO : Update the data with the values in the CSV file
         int         accountNumber       = Integer.parseInt(column[0]);
         int         routingNumber       = Integer.parseInt(column[1]);
+
         String      accountNickName     = column[2];
         double      currentBalance      = column[3].equals("") ? 0.0 : Double.parseDouble(column[3]);
+
         Transaction currentTransaction  = new Transaction();
-        Date        nextStatementDate   = new Date();
-        Date        dateOpened          = new Date();
-        String      accountType         = column[0];
+        String      nextStatementDate   = column[10];
+
+        String      dateOpened          = column[9];
+        String      accountType         = column[11];
+
         Owner       accountOwner        = new Owner();
-        String      earlyDirectDeposit  = column[0];
-        String      overdraftTransfer   = column[0];
-        String      overdraftProtection = column[0];
+        String      earlyDirectDeposit  = column[14];
+
+        String      overdraftTransfer   = column[15];
+        String      overdraftProtection = column[16];
+
 
         //TODO: return Account object using the builder pattern
         return new Account.Builder()
-                          .build();
+                .setAccountNumber(accountNumber)
+                .setRoutingNumber(routingNumber)
+                .setAccountNickname(accountNickName)
+                .setCurrentBalance(currentBalance)
+                .setDateOpened(dateOpened)
+                .setNextStatementDate(nextStatementDate)
+                .setAccountType(accountType)
+                .setEarlyDirectDeposit(earlyDirectDeposit)
+                .setOverdraftTransfer(overdraftTransfer)
+                .setOverdraftProtection(overdraftProtection)
+                .setAccountOwner(accountOwner)
+                .setCurrentTransaction(currentTransaction)
+                .build();
+
+
 
     }
 
@@ -73,8 +109,16 @@ public class Controller {
 
 
         //TODO: read in Account data and table header
+        input.nextLine();
         while(input.hasNextLine()) {
             //TODO: create a Account object
+
+            Account newAccount = parse(input.nextLine());
+            if (list.contains(newAccount)) {
+                list.remove(newAccount);
+            }
+            list.add(newAccount);
+
 
 
             //TODO: check for duplicates and remove from list
@@ -96,7 +140,7 @@ public class Controller {
         if(csvFile.exists() && txtFile.exists()) {
             csvStream.println(csvFileHeader);
             for (int i = 0; i < list.size(); i++) {
-      //          csvStream.println(list.get(i).toFile());
+                csvStream.println(list.get(i).toFile());
                 txtStream.println(list.get(i));
             }
         }
@@ -159,17 +203,17 @@ public class Controller {
         System.out.println();
 
         //TODO: print intro to console
-//        intro();
+        intro();
 
         //TODO: set up list for data entry
-//        List<Account> list     = new ArrayList<>();
+       List<Account> list     = new ArrayList<>();
 
         //TODO: set locations to read in the accounts file
-//        read(list,inputLocation);
+        read(list,inputLocation);
 
 
         //TODO: set locations to write data
-//        writeInOrder(list, outputLocation);
+        writeInOrder(list, outputLocation);
 //        writeTransactionsInOrder(list, outputLocation);
 
         System.out.println();

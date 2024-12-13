@@ -14,6 +14,12 @@ public class Time {
         this.hour = hour;
         this.minutes = minutes;
     }
+    public int compareTo(Time other) {
+        if (this.hour != other.hour) {
+            return this.hour - other.hour;
+        }
+        return this.minutes-other.minutes;
+    }
 
     //TODO: This overrides the definition of the Object class
     @Override

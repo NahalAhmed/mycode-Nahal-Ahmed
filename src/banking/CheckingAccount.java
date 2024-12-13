@@ -9,10 +9,7 @@ public class CheckingAccount {
 
     //TODO: Lab 03 default constructor
     public CheckingAccount(){
-   //     this(" ", 18, 0.0);
-        this(" ",0);
-
-
+        this(" ", 18, 0.0);
 
 
     }
@@ -22,16 +19,14 @@ public class CheckingAccount {
         String[] parts = input.split(" ");
         String firstName = parts[0];
         String lastName = parts[1];
-
-
-  //      this.age = Integer.parseInt(parts[2]);
-        this.name = firstName + " " + lastName;
-        this.balance = Double.parseDouble(parts[2]);
+        this.name       = firstName + " " + lastName;
+        this.age       = Integer.parseInt(parts[2]);
+        this.balance    = Double.parseDouble(parts[3]);
     }
 
     //TODO: Lab 01
     public CheckingAccount(String name, double balance) {
-   //     this.age = 19;
+        this.age = 19;
         this.name = name;
         this.balance = balance;
     }
@@ -47,7 +42,7 @@ public class CheckingAccount {
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("Deposit " + amount + "to" + name);
+            System.out.println("Deposit: " + amount + " to " + name);
         }
     }
 
@@ -55,22 +50,32 @@ public class CheckingAccount {
         double totalAmount = amount + 1.0;
         if (totalAmount <= balance) {
             balance -= totalAmount;
-            System.out.println("Withdraw " + amount + "from" + name + "(Fee: 1.00");
+            System.out.println("Withdraw: " + amount + " from " + name + " (Fee: 1.00");
         }else{
             System.out.println("Insufficient funds");
-
         }
     }
 
     public void transfer (CheckingAccount recipient, double amount){
         if (amount +1.00 <= balance) {
             this.withdraw(amount);
-            System.out.println("Transferred: " + amount + "to" + recipient.name + "(Fee: 1.00");
+            System.out.println("Transferred: " + amount + " to " + recipient.name + " (Fee: 1.00");
         recipient.deposit(amount); }
     }
 
+    public void displayInfo(){
+        System.out.println(name+ " " + age + " " + String.format("%.2f", balance));
+
+    }
     public void displayCheckingAccountInfo(){
-        System.out.println(name + "Balance:" + String.format("%.2f", balance));
+        System.out.println(name+ " " + age + " " + String.format("%.2f", balance));
+        System.out.println("-------------------------------");
+        System.out.println("as");
+        System.out.println("-------------------------------");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Balance: " + String.format("%.2f", balance));
+        System.out.println("-------------------------------");
     }
 
     //accessors == "getters"
@@ -104,6 +109,11 @@ public class CheckingAccount {
     public String toString() {
         return String.format("Name: %s\nBalance: %.2f\nAge:%d\n", name, balance,age);
 
+
+
+
     }
 
+    public void displayCheckingAccounttInfo() {
+    }
 }
