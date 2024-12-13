@@ -21,7 +21,6 @@ public enum Month {
         this.value = value;
     }
 
-    //TODO: This overrides the definition of the Object class
     @Override
     public String toString() {
         return value;

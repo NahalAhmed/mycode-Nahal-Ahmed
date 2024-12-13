@@ -1,5 +1,6 @@
 package accounts;
 
+import java.util.Comparator;
 import java.util.Objects;
 
 public class Date implements Comparable<Date> {
@@ -26,25 +27,28 @@ public class Date implements Comparable<Date> {
         this.year   = year;
     }
 
-    //TODO: This overrides the definition of the Object class
+    @Override
+    public int compareTo(Date other) {
+        return Comparator.comparing((Date date) -> date.year)
+                         .thenComparing((Date date) -> date.month)
+                         .thenComparing((Date date) -> date.day)
+                         .compare(this, other);
+    }
+
     @Override
     public boolean equals(Object obj) {
-        if(obj instanceof Date other) {
-            return this.day == other.day                    &&
-                   Objects.equals(this.month, other.month)  &&
-                   this.year == other.year;
+        if( obj instanceof Date other) {
+            return  Objects.equals(this.day, other.day)      &&
+                    Objects.equals(this.month, other.month)  &&
+                    Objects.equals(this.year, other.year);
+
         }
         return false;
     }
 
-    //TODO: This overrides the definition of the Object class
     @Override
     public String toString() {
         return String.format("%02d-%s-%02d", day, month, year);
     }
 
-    @Override
-    public int compareTo(Date o) {
-        return 0;
-    }
 }
