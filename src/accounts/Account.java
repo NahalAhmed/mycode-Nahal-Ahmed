@@ -50,9 +50,7 @@ public class Account implements Comparable<Account>{
         return accountOwner.getAge();
     }
 
-    public double getCurrentBalance() {
-        return currentBalance;
-    }
+
 
     public String getName(){
         return accountOwner.getName();
@@ -61,6 +59,12 @@ public class Account implements Comparable<Account>{
     public Transaction getCurrentTransaction() {
         return currentTransaction;
     }
+
+    public double getCurrentBalance() {
+        return currentBalance;
+    }
+
+
 
     public void deposit(double amount) {
         if (amount > 0) {

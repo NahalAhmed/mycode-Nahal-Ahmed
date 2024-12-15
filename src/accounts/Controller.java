@@ -101,6 +101,7 @@ public class Controller {
         //TODO: read in Account data and table header
         while(input.hasNextLine()) {
             //TODO: create a Account object
+            String line = input.nextLine();
             Account account = parse(input.nextLine());
 
             //TODO: check for duplicates and remove from list
@@ -114,9 +115,17 @@ public class Controller {
 
     //TODO: Update this to test on screen
     public static void transfer(Account from, Account to, double amount) {
+        if (amount <= 0) {
+            throw new IllegalArgumentException("Transfer amount must be positive.");
+        }
+        to.deposit(amount);
         from.withdraw(amount);
         //TODO: Formatted print out of transaction
-        to.deposit(amount);
+       // System.out.printf("Transferred %.2f from %s to %s.%n", amount, from.getAccountNickname(),
+               // to.getAccountNickname());
+       // System.out.printf("New Balance: %s = %.2f, %s = %.2f%n", from.getAccountNickname(), from.getCurrentBalance(),
+               // to.getAccountNickname(), to.getCurrentBalance());
+
     }
 
     public static void writeInOrder(List<Account> list, String outputLocation) throws FileNotFoundException {
@@ -152,9 +161,16 @@ public class Controller {
         PrintStream txtStream 	= new PrintStream(txtFile);
 
         // TODO: Get all the transactions
+        List<Transaction> transactionsList = new ArrayList<>();
+
+        for (Account account : list) {
+             transactionsList.add(account.getCurrentTransaction());
+        }
+
 
 
         // TODO: Sort the transactions
+        Collections.sort(transactionsList);
 
 
         // TODO: Write accounts based on sorted transactions
@@ -162,7 +178,10 @@ public class Controller {
             csvStream.println(csvFileHeader);
 
             //TODO: Write account transactions in order.
-
+            for (Transaction transaction : transactionsList) {
+                csvStream.println(transaction.toFile());
+                txtStream.println(transaction.toString());
+            }
         }
 
         csvStream.close();

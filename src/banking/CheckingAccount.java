@@ -115,5 +115,6 @@ public class CheckingAccount {
     }
 
     public void displayCheckingAccounttInfo() {
+        System.out.println(name+ "Balance:" + " " + String.format("%.2f", balance));
     }
 }

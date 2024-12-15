@@ -12,8 +12,8 @@ public class Transaction implements Comparable<Transaction>{
 
 
     public Transaction() {
-        this.senderAccount      = "";
-        this.receiverAccount    = "";
+        this.senderAccount      = "00000000";
+        this.receiverAccount    = "00000000";
         this.transactionAmount  = 0.0;
         this.transactionDate    = new Date();
         this.transactionTime    = new Time();
@@ -45,16 +45,19 @@ public class Transaction implements Comparable<Transaction>{
 
     //TODO: "method references" used to compare data
     public Date getTransactionDate() {
+        if(transactionDate == null){throw new RuntimeException();}
         return transactionDate; // Ensure this field exists in the Transaction class
     }
 
     public Time getTransactionTime() {
+        if(transactionTime == null){throw new RuntimeException();}
         return transactionTime; // Ensure this field exists in the Transaction class
     }
 
     //TODO: from writeTransactions in Controller Class description
     @Override
     public boolean equals(Object obj) {
+        if(obj == null){throw new RuntimeException();}
         if (obj instanceof Transaction other) {
             return     Objects.equals(senderAccount     , other.senderAccount)
                     && Objects.equals(receiverAccount   , other.receiverAccount)
