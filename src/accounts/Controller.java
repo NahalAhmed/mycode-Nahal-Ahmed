@@ -101,7 +101,6 @@ public class Controller {
         //TODO: read in Account data and table header
         while(input.hasNextLine()) {
             //TODO: create a Account object
-            String line = input.nextLine();
             Account account = parse(input.nextLine());
 
             //TODO: check for duplicates and remove from list
@@ -121,10 +120,7 @@ public class Controller {
         to.deposit(amount);
         from.withdraw(amount);
         //TODO: Formatted print out of transaction
-       // System.out.printf("Transferred %.2f from %s to %s.%n", amount, from.getAccountNickname(),
-               // to.getAccountNickname());
-       // System.out.printf("New Balance: %s = %.2f, %s = %.2f%n", from.getAccountNickname(), from.getCurrentBalance(),
-               // to.getAccountNickname(), to.getCurrentBalance());
+
 
     }
 
@@ -180,7 +176,7 @@ public class Controller {
             //TODO: Write account transactions in order.
             for (Transaction transaction : transactionsList) {
                 csvStream.println(transaction.toFile());
-                txtStream.println(transaction.toString());
+                //txtStream.println(transaction.toString());
             }
         }
 
